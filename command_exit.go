@@ -2,6 +2,7 @@ package main
 
 import "os"
 
-func callBackExit() {
+func callBackExit() error {
 	os.Exit(0)
+	return nil
 }
